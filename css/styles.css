@@ -191,6 +191,8 @@ address {
   line-height: var(--primary-line-height);
   letter-spacing: var(--secondary-letter-spacing);
   color: var(--paragraf-text-color);
+  margin-left: 10px;
+  fill: currentColor;
 }
 
 .main_title {
@@ -226,6 +228,14 @@ address {
   margin-bottom: 9px;
 }
 
+.footer-invite {
+  font-style: normal;
+  font-weight: var(--primary-font-weight);
+  font-size: var(--primary-font-size);
+  line-height: var(--primary-line-height);
+  text-transform: uppercase;
+  color: var(--bg-color1);
+}
 
 /* =========STUDIO========== */
 
@@ -285,6 +295,17 @@ address {
   text-align: var(--primary-text-align);
 }
 
+.virtues-icon-box {
+  width: 270px;
+  height: 120px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #F5F4FA;
+  border-radius: 4px;
+  margin-bottom: 30px;
+}
+
 .our-virtues-title {
   font-weight: var(--primary-font-weight);
   line-height: var(--primary-line-height);
@@ -302,6 +323,11 @@ address {
   flex-basis: calc((100% - 90px) / 4);
 }
 
+.icon-virtues {
+  width: 70px;
+  height: 70px;
+}
+
 .examples-frame {
   padding-top: 0;
 }
@@ -317,6 +343,7 @@ address {
   font-size: var(--secondary-font-size);
   line-height: var(--secondary-line-height);
   color: var(--paragraf-text-color);
+  margin-bottom: 16px;
 }
 
 .examples_work,
@@ -332,6 +359,44 @@ address {
   background-color: var(--third-bg-color);
 }
 
+.social-link {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  column-gap: 10px;
+  margin: 0 32px;
+}
+
+.icon-social-networks {
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+}
+
+.icon-list { 
+  display: flex;
+  justify-content: center;
+  column-gap: 30px;
+} 
+
+.client-frame{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 170px;
+  height: 92px;
+  border: 1px solid #AFB1B8;
+  border-radius: 4px;
+}
+
+.client-frame:focus,
+.client-frame:active {
+  color: #2196F3;
+}
+
+.icon-clients {
+ 
+}
 /* ========PORTFOLIO======= */
 
 .portfolio-list-projects {
