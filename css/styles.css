@@ -1,7 +1,7 @@
 /* ========GENERAL========== */
 
 :root {
-  --accent-color: #2196f3;
+  --accent-color: #2196f3; 
   --bg-color1: #ffffff;
   --main-text-color: #212121;
   --secondary-bg-color: #2f303a;
@@ -94,6 +94,8 @@ address {
   line-height: 1.71;
   letter-spacing: var(--primary-letter-spacing);
   margin-top: 20px;
+  margin-right: 70px;
+  width: 231px;
 }
 
 .menu-link.current {
@@ -191,8 +193,12 @@ address {
   line-height: var(--primary-line-height);
   letter-spacing: var(--secondary-letter-spacing);
   color: var(--paragraf-text-color);
-  margin-left: 10px;
   fill: currentColor;
+  display: flex;
+}
+
+.menu-contacts-navigation-icon {
+  margin-right: 10px;
 }
 
 .main_title {
@@ -219,10 +225,9 @@ address {
   color: var(--menu-contacts-footer-color);
 }
 
- .footer-conteiner {
-  padding-top: 60px;
-  padding-bottom: 60px;
-}
+  /* .footer-conteiner {
+  padding-top: 12px;
+}  */
 
 .footer-gap {
   margin-bottom: 9px;
@@ -240,6 +245,7 @@ address {
   line-height: var(--primary-line-height);
   text-transform: uppercase;
   color: var(--bg-color1);
+  margin-top: 12px;
 }
 
 .social-link-footer {
@@ -249,14 +255,23 @@ address {
   width: 44px;
   height: 44px;
   border-radius: 50%;
-  fill: tomato;
+  background-color: rgba(255, 255, 255, 0.1);
 }
+
+.social-link-footer:hover,
+.social-link-footer:focus {
+  background-color: #2196F3;
+  fill: var(--bg-color1);
+} 
+
 
 .social-icon-footer {
   fill: var(--bg-color1);
 }
 
-
+.footer-box {
+  display: flex;
+}
 /* =========STUDIO========== */
 
 
@@ -387,12 +402,9 @@ address {
   align-items: center;
   justify-content: center;
   column-gap: 10px;
-  margin: 0 32px;
+  margin-top: 20px;
 }
 
-.icon-social-networks {
-  
-}
 
 .social-link {
   display: flex;
@@ -407,33 +419,14 @@ address {
 .social-link:hover,
 .social-link:focus {
   background-color: #2196F3;
-  
-} 
-
-.social-icon {
-  fill: #afb1b8;
-}
-
-.social-link .social-icon :hover,
-.social-link .social-icon :focus {
   fill: var(--bg-color1);
-}
+} 
 
 .icon-list { 
   display: flex;
   justify-content: center;
   column-gap: 30px;
 } 
-
-/* .client-frame{
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  width: 170px;
-  height: 92px;
-  border: 1px solid #AFB1B8;
-  border-radius: 4px;
-} */
 
 .client-link {
   display: flex;
@@ -449,14 +442,6 @@ address {
 .client-link:focus,
 .client-link:hover {
   border-color: #2196F3;
-}
-
-.icon-clients {
- fill: #afb1b8;
-}
-
-.client-link .icon-clients:focus,
-.client-link .icon-clients:hover {
   fill: #2196F3;
 }
 
