@@ -230,10 +230,6 @@ address {
   color: var(--menu-contacts-footer-color);
 }
 
-/* .footer-conteiner {
-  padding-top: 12px;
-}  */
-
 .footer-gap {
   margin-bottom: 9px;
 }
@@ -277,7 +273,6 @@ address {
   display: flex;
 }
 /* =========STUDIO========== */
-
 
 .top-main-index-bg {
   background-image: linear-gradient(
