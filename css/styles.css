@@ -464,6 +464,10 @@ address {
     1px 4px 6px var(--shadow-third-color);
 }
 
+.portfolio-card-link {
+  color: var(--main-text-color);
+}
+
 .button-text {
   font-weight: var(--secondary-font-weight);
   line-height: 1.63;
