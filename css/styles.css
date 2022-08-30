@@ -200,6 +200,7 @@ address {
   color: var(--paragraf-text-color);
   fill: currentColor;
   display: flex;
+  align-items: center;
 }
 
 .menu-contacts-navigation-icon {
@@ -246,7 +247,7 @@ address {
   line-height: var(--primary-line-height);
   text-transform: uppercase;
   color: var(--bg-color1);
-  margin-top: 12px;
+  /* margin-top: 12px; */
 }
 
 .social-link-footer {
@@ -271,6 +272,7 @@ address {
 
 .footer-box {
   display: flex;
+  align-items: baseline;
 }
 /* =========STUDIO========== */
 
@@ -285,6 +287,9 @@ address {
   background-color: var(--hero-bg-color);
   padding-top: 200px;
   padding-bottom: 200px;
+  max-width: 1600px;
+  margin: 0 auto;
+
 }
 
 .page-footer-bg {
@@ -403,7 +408,7 @@ address {
   align-items: center;
   justify-content: center;
   column-gap: 10px;
-  margin-top: 20px;
+  margin-top: 16px;
 }
 
 .social-link {
@@ -453,14 +458,15 @@ address {
   gap: 30px;
 }
 
-.portfolio-list-projects-container:hover {
+.portfolio-card-link {
+  display: block;
+  color: var(--main-text-color);
+}
+
+.portfolio-card-link:hover {
   box-shadow: 0px 1px 1px var(--button-text-shadow-third-color), 
     0px 4px 4px var(--shadow-fourth-color),
     1px 4px 6px var(--shadow-third-color);
-}
-
-.portfolio-card-link {
-  color: var(--main-text-color);
 }
 
 .button-text {
